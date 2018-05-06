@@ -7,11 +7,4 @@ fun main(args: Array<String>) {
     val kevin = Person("Kevin")
 
     kevin.display()
-
-    kevin.Name = "Steve"
-
-    println("My name is ${kevin.Name}")
-
-
-    kevin = Person()
 }
