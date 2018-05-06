@@ -8,4 +8,10 @@ fun main(args: Array<String>) {
 
     kevin.display()
 
+    kevin.Name = "Steve"
+
+    println("My name is ${kevin.Name}")
+
+
+    kevin = Person()
 }
