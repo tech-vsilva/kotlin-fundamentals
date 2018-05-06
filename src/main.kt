@@ -10,4 +10,10 @@ fun main(args: Array<String>) {
     // Kotlin works with String interpolation :)
     println("My name is ${kevin.Name}")
 
+    kevin.Name = "Steve"
+
+    println("My name is ${kevin.Name}")
+
+
+    kevin = Person()
 }
